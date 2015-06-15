@@ -1,0 +1,37 @@
+
+
+#map-canvas {
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+
+#title {
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  z-index: 1000;
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+  width: 100%;
+}
+
+#status {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translateX(-50%);
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 1rem;
+  span {
+    display: inline-block;
+    font-size: .8rem;
+    background-color: rgba(255, 255, 255, .3);
+    padding: .5rem;
+    margin: 1rem 0 0 0;
+  }
+}

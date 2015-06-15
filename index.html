@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <head>
+
+    <link type="text/css" rel="stylesheet" href="libs/onsen/css/onsen-css-components-dark-theme.css">
+    <link type="text/css" rel="stylesheet" href="css/app.css">
+
+    <script type="text/javascript" src="libs/onsen/js/onsenui_all.min.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRLlEizbmSJPzz3t5TJrtPffRAyBbKD98"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/controllers/main.js"></script>
+
+  </head>
+  <body>
+
+    <ons-navigator var="navigation" page="main.html"></ons-navigator>
+
+    <ons-template id="main.html">
+      <ons-page ng-controller="MainController">
+
+        <div id="map-canvas"></div>
+
+        <div id="title">DroneCheck</div>
+
+        <div id="status">
+          Go ahead!<br>
+          <span>Recheck position</span>
+        </div>
+
+      </ons-page>
+    </ons-template>
+
+  </body>
+</html>
