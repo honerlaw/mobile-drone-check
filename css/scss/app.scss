@@ -1,9 +1,10 @@
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400);
 
 #map-canvas {
   width: 100%;
-  height: 100%;
-  opacity: .5;
+  height: calc(100% - 5rem);
+  opacity: 1;
 }
 
 #title {
@@ -17,21 +18,30 @@
   width: 100%;
 }
 
-#status {
+.status {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
-  width: 80%;
-  -webkit-transform: translateX(-50%);
+  bottom: 0px;
+  left: 0px;
+  height: 5rem;
+  overflow: hidden;
+  line-height: 1.5rem;
+  width: 100%;
+  z-index: 1000;
+  background-color: #1a1a1a;
   text-align: center;
-  font-size: 2rem;
-  background-color: rgba(0, 0, 0, .7);
-  padding: 1rem;
+  color: #EF4836;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.15rem;
+  font-family: 'Open Sans', sans-serif;
+  &.green {
+    color: #26A65B;
+  }
+  div {
+    padding-top: 1rem;
+  }
   span {
-    display: inline-block;
     font-size: .8rem;
-    background-color: rgba(255, 255, 255, .3);
-    padding: .5rem;
-    margin: 1rem 0 0 0;
+    color: rgba(255, 255, 255, .8);
   }
 }

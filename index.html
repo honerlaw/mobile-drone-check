@@ -1,6 +1,7 @@
 <!DOCTYPE html>
   <head>
 
+    <link type="text/css" rel="stylesheet" href="libs/onsen/css/onsenui.css">
     <link type="text/css" rel="stylesheet" href="libs/onsen/css/onsen-css-components-dark-theme.css">
     <link type="text/css" rel="stylesheet" href="css/app.css">
 
@@ -17,15 +18,24 @@
     <ons-navigator var="navigation" page="main.html"></ons-navigator>
 
     <ons-template id="main.html">
-      <ons-page ng-controller="MainController">
+      <ons-page id="MainController" ng-controller="MainController">
+
+        <ons-toolbar>
+          <div class="center">DroneCheck</div>
+          <div class="right">
+            <ons-toolbar-button ng-click="location();">
+              <ons-icon icon="ion-location" size="32px" style="color: #22A7F0;"></ons-icon>
+            </ons-toolbar-button>
+          </div>
+        </ons-toolbar>
 
         <div id="map-canvas"></div>
 
-        <div id="title">DroneCheck</div>
-
-        <div id="status">
-          Go ahead!<br>
-          <span>Recheck position</span>
+        <div class="status" ng-class="{green: data.green}">
+          <div>
+            {{data.status}}<br>
+            <span>{{data.weather}}</span>
+          </div>
         </div>
 
       </ons-page>
