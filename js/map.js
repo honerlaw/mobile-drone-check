@@ -183,7 +183,13 @@ var map = (function () {
             if(weather.length > 0) {
               scope.data.weather = weather[0].description;
               scope.$apply();
+            } else {
+              scope.data.weather = 'no weather data';
+              scope.$apply();
             }
+          }, function(err) {
+            scope.data.weather = 'no weather data';
+            scope.$apply();
           });
 
           //update the status

@@ -2,7 +2,7 @@ module.controller('MainController', function($scope) {
 
   $scope.data = {
     status : 'loading map data',
-    weather: 'no weather data',
+    weather: 'loading weather data',
     green: false
   };
 
