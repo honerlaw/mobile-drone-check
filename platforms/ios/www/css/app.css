@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400);
+#map-canvas {
+  width: 100%;
+  height: calc(100% - 5rem);
+  opacity: 1; }
+
+#title {
+  position: absolute;
+  top: 10%;
+  left: 0px;
+  z-index: 1000;
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+  width: 100%; }
+
+.status {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 5rem;
+  overflow: hidden;
+  line-height: 1.5rem;
+  width: 100%;
+  z-index: 1000;
+  background-color: #1a1a1a;
+  text-align: center;
+  color: #EF4836;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.15rem;
+  font-family: 'Open Sans', sans-serif; }
+  .status.green {
+    color: #26A65B; }
+  .status div {
+    padding-top: 1rem; }
+  .status span {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.8); }
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,16 @@
+2015-06-16 17:55:35.387 DroneCheck[12571:806646] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Derek/Library/Developer/CoreSimulator/Devices/78C2C1DA-FD6F-4414-8607-EAC2BD5D8BF8/data/Containers/Data/Application/2FD7AFBC-F206-4BDD-BB08-C9428858C052/Library/Cookies/Cookies.binarycookies
+2015-06-16 17:55:35.556 DroneCheck[12571:806646] Apache Cordova native platform version 3.8.0 is starting.
+2015-06-16 17:55:35.557 DroneCheck[12571:806646] Multi-tasking -> Device: YES, App: YES
+2015-06-16 17:55:35.561 DroneCheck[12571:806646] Unlimited access to network resources
+2015-06-16 17:55:35.568 DroneCheck[12571:806646] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-06-16 17:55:35.689 DroneCheck[12571:806646] [CDVTimer][statusbar] 18.785000ms
+2015-06-16 17:55:35.689 DroneCheck[12571:806646] [CDVTimer][TotalPluginStartup] 19.191980ms
+2015-06-16 17:55:36.099 DroneCheck[12571:806646] Resetting plugins due to page load.
+2015-06-16 17:55:36.473 DroneCheck[12571:806646] Finished load of: file:///Users/Derek/Library/Developer/CoreSimulator/Devices/78C2C1DA-FD6F-4414-8607-EAC2BD5D8BF8/data/Containers/Bundle/Application/487FD6D1-D6D0-462B-9D6F-B653E84FF104/DroneCheck.app/www/index.html
