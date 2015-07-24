@@ -65,3 +65,20 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-07-23 21:23:01.823 DroneCheck[22559:1590111] Finished load of: file:///Users/Derek/Library/Developer/CoreSimulator/Devices/B4B7E96D-A2D3-4555-B4B5-D2344E83C993/data/Containers/Bundle/Application/4E7CE59D-03BF-43A4-907B-E6FB685D1D86/DroneCheck.app/www/index.html
 2015-07-23 21:23:03.592 DroneCheck[22559:1590111] locationManager::didFailWithError (null)
 2015-07-23 21:23:43.872 DroneCheck[22559:1590433] Terminating since there is no system app.
+2015-07-23 21:28:06.581 DroneCheck[22904:1593918] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Derek/Library/Developer/CoreSimulator/Devices/B4B7E96D-A2D3-4555-B4B5-D2344E83C993/data/Containers/Data/Application/E67B1B2F-C324-4F8B-A839-7CA8E553C03A/Library/Cookies/Cookies.binarycookies
+2015-07-23 21:28:06.842 DroneCheck[22904:1593918] Apache Cordova native platform version 3.8.0 is starting.
+2015-07-23 21:28:06.842 DroneCheck[22904:1593918] Multi-tasking -> Device: YES, App: YES
+2015-07-23 21:28:06.845 DroneCheck[22904:1593918] Unlimited access to network resources
+2015-07-23 21:28:06.848 DroneCheck[22904:1593918] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-07-23 21:28:06.972 DroneCheck[22904:1593918] [CDVTimer][statusbar] 18.737018ms
+2015-07-23 21:28:06.972 DroneCheck[22904:1593918] [CDVTimer][TotalPluginStartup] 18.989027ms
+2015-07-23 21:28:07.054 DroneCheck[22904:1593918] Resetting plugins due to page load.
+2015-07-23 21:28:07.250 DroneCheck[22904:1593918] Finished load of: file:///Users/Derek/Library/Developer/CoreSimulator/Devices/B4B7E96D-A2D3-4555-B4B5-D2344E83C993/data/Containers/Bundle/Application/D336577F-7E1A-4B92-865F-171CA14D8E48/DroneCheck.app/www/index.html
+2015-07-23 21:28:34.416 DroneCheck[22904:1593928] Terminating since there is no system app.
